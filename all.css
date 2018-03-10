@@ -111,7 +111,8 @@ figure {
   margin: 1.5rem -1.5rem;
 }
 
-figure > :not(figcaption) {
+figure :not(figcaption),
+figure :not(figcaption *) {
   display: block;
   width: 100%;
   height: auto;
